@@ -62,9 +62,9 @@ const Hero = () => {
             We combine artificial intelligence with automation to Emulates your Business workflows
           </p>
 
-          <a href="#about">
+          <a >
             <MagicButton
-              title="Show my work"
+              title=" Welcome "
               icon={<FaLocationArrow />}
               position="right"
             />

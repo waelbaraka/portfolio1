@@ -17,10 +17,11 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take your <span className="text-purple">Comapy</span>  to the next level?
+          Ready to take <span className="text-purple">your</span> digital
+          presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how WE can help you
+          Reach out to me today and let&apos;s discuss how  can help you
           achieve your goals.
         </p>
         <a href="mailto:contact@jsmastery.pro">
