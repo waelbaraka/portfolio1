@@ -50,6 +50,7 @@ export const BentoGridItem = ({
   img?: string;
   imgClassName?: string;
   titleClassName?: string;
+  spareImg?: string;
 
 
 }) => {
