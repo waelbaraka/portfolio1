@@ -189,7 +189,7 @@ export const workExperience = [
     title: "Sales and marketing automation",
     desc: "Content creation, full-funnel automation, lead routing, CRM, outbound, payments, contracts and much more.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/fire.svg",
   },
 ];
 
