@@ -82,7 +82,7 @@ export const InfiniteMovingCards = ({
         ref={scrollerRef}
         className={cn(
           // change gap-16
-          " flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap",
+          " flex min-w-max shrink-0 gap-16 py-4 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
@@ -90,7 +90,7 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             //   change md:w-[450px] to md:w-[60vw] , px-8 py-6 to p-16, border-slate-700 to border-slate-800
-            className="w-[90vw] max-w-full relative rounded-2xl border border-b-0
+            className="w-[90vw] max-w-max relative rounded-2xl border border-b-0
              flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
             style={{
               //   background:
@@ -111,12 +111,11 @@ export const InfiniteMovingCards = ({
               ></div>
               {/* change text color, text-lg */}
               <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
-                {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
+                 
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
@@ -125,7 +124,6 @@ export const InfiniteMovingCards = ({
                   </span>
                   {/* change text color */}
                   <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                    {item.title}
                   </span>
                 </span>
               </div>

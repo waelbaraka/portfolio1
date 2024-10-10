@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Our <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We undrestand your stystem and recommend solution to help cut cost and scale revenu."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Once we agree on the plan,We build ademo then we implement the soultion - custoum coding"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -51,8 +47,7 @@ const Approach = () => {
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
           des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          We'll translate everything into functional form, From initial sketches to polished Soultion"
         >
           <CanvasRevealEffect
             animationSpeed={3}
