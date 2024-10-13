@@ -17,8 +17,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> Business
-          to run on Auto Pilot?
+          Ready to let your Business <span className="text-purple">flow</span> smoothly and operate on autopilot?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to us today and let&apos;s discuss how  can help you
